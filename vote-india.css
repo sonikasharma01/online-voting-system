@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://c.files.bbci.co.uk/B613/production/_106311664_expander_index_640.png");
+  background-size: cover;
+
+} 
+
+/* Box */
+.box {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+} 
+
+/* Heading */
+.box h1 {
+  margin-bottom: 30px;
+  color: #141e30;
+} 
+
+/* Buttons */
+.box button {
+  width: 220px;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: #243b55;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+} 
+
+/* Hover */
+.box button:hover {
+  background: #141e30;
+  transform: scale(1.03);
+}

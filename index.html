@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="login.js"></script>
+  </head>
+  <body>
+    <h1>Online Voting System</h1>
+
+    <!-- login form -->
+    <form onsubmit="return false;">
+
+  <label for="fname">Name :</label>
+  <input type="text" id="fname" required>
+
+  <label for="Vid">Voter ID :</label>
+  <input type="text" id="Vid" required>
+
+  <label for="Mnumber">Mobile :</label>
+  <input type="text" id="Mnumber" required>
+
+ <button type="button" id="submitBtn">
+    Submit
+</button>
+</form>
+
+<!-- OUTSIDE FORM -->
+<div class="google-login">
+
+    <button type="button" id="googleSignIn">
+
+        <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+        alt="Google Logo">
+
+        <span>Sign in with Google</span>
+
+    </button>
+
+</div>
+<!-- Footer -->
+<footer>
+  <p>© 2026 Online Voting System</p>
+    </footer>
+</body>
+</html>

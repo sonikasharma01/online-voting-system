@@ -1,0 +1,314 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  background-image: url("logo.jpg");
+  background-size: cover;
+  background-position: center;
+
+  min-height: 100vh;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+/* Heading */
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Form */
+
+form {
+  width: 100%;
+  max-width: 350px;
+
+  background: white;
+  color: black;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Labels */
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+
+  font-weight: bold;
+}
+
+/* Inputs */
+
+form input {
+  width: 100%;
+
+  padding: 12px;
+
+  margin-bottom: 18px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 6px;
+
+  outline: none;
+
+  font-size: 15px;
+}
+
+/* Input Focus */
+
+form input:focus {
+  border-color: #243b55;
+}
+
+/* Submit Button */
+
+form button {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  background: #243b55;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* Button Hover */
+
+form button:hover {
+  background: #141e30;
+  transform: scale(1.02);
+}
+
+<<<<<<< HEAD
+/* Google Login Section */
+
+.google-login {
+  margin-top: 20px;
+}
+
+/* Google Button */
+
+#googleSignIn {
+  width: 260px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: white;
+
+  color: #444;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  transition: 0.3s;
+}
+
+/* Google Logo */
+
+#googleSignIn img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Google Hover */
+
+#googleSignIn:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+
+footer {
+  margin-top: 30px;
+
+  text-align: center;
+
+  padding: 15px;
+
+  color: white;
+
+  font-size: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  form {
+    padding: 25px;
+  }
+
+  #googleSignIn {
+    width: 100%;
+  }
+}
+=======
+/* Cards Container */
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding-bottom:30px;
+}
+
+/* Card */
+.card{
+    background:white;
+    color:black;
+    border-radius:15px;
+    padding:20px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Left Side */
+.left{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+/* Symbol Image */
+.left img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+/* Party Name */
+.left h2{
+    font-size:28px;
+}
+
+/* Vote Button */
+button{
+    padding:12px 30px;
+    border:none;
+    border-radius:8px;
+    background:#243b55;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* Button Hover */
+button:hover{
+    background:#141e30;
+    transform:scale(1.05);
+}
+
+/* Google Login */
+.google-login{
+    /* text-align:center; */
+    justify-items: center;
+    margin-top:20px;
+}
+
+/* Google Button */
+#googleSignIn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    width:260px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:white;
+
+    color:#444;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+    transition:0.3s;
+}
+
+/* Google Logo */
+#googleSignIn img{
+    width:25px;
+    height:25px;
+}
+
+/* Hover */
+#googleSignIn:hover{
+    transform:scale(1.03);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+>>>>>>> d5f5770d79805762ffcb46e9c1c119857e014e39
